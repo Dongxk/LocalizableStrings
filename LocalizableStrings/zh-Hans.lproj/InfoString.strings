@@ -1,0 +1,15 @@
+/* 
+  InfoString.strings
+  LocalizableStrings
+
+  Created by 董向坤 on 2018/4/19.
+  Copyright © 2018年 Dongxk. All rights reserved.
+*/
+
+
+"KLogin_Title"               =          "本地(国际)化语言";
+"KLogin_Login"               =          "登录";
+"KLogin_Alert_Title"         =         "提示";
+"KLogin_Alert_Msg"           =         "您的账号已在其他设备登录，是否继续登录？";
+"KLogin_Alert_Continue"      =         "继续";
+"B_Cancle"                    =         "取消";

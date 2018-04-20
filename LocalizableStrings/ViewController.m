@@ -39,6 +39,7 @@
                               delegate:self
                      cancelButtonTitle:NSLocalizedString(@"B_Cancle", nil) otherButtonTitles:NSLocalizedString(@"KLogin_Alert_Continue", nil), nil];
     
+    [alert show];
     //2、自定义命名的使用NSLocalizedStringFromTable(key, tbl, comment)，其中tbl是文件的名字(例如：InfoString)
    UIAlertView *alert_info = [[UIAlertView alloc] initWithTitle:NSLocalizedStringFromTable(@"KLogin_Alert_Title", @"InfoString", nil)
                                message:NSLocalizedStringFromTable(@"KLogin_Alert_Msg", @"InfoString", nil)
